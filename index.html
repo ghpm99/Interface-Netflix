@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NetFlix Clone</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2>NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -21,6 +26,74 @@
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Shigatsu wa kimi no uso</h3>
+                <p class="descricao">Após a morte da mãe, um pianista prodígio perde a vontade de tocar. Mas conhecer
+                    uma rapariga que toca violino muda o rumo da sua vida.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais Informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\gamers.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\girlfriend.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\golden.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\junkie.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\kobayashi.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\kokoro.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\missueno.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\nogame.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\oresuki.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\quintessential.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\witches.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="E:\Programacao\GitHub\Interface-Netflix\img\zombieandsaga.jpg" alt="" srcset="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/f7cc0e14a7.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
